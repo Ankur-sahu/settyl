@@ -6,16 +6,29 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "d3": "^7.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "nodemon serve.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
